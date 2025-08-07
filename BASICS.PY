@@ -315,7 +315,7 @@ num_grid=[
     [7,8,9],
     [0]]
 print(num_grid[2][1])
-
+# Access and print the element in the 3rd row and 2nd column (value: 8)
 
 num_grid=[
     [1,2,3],
@@ -325,7 +325,7 @@ num_grid=[
 for row in num_grid:
     for col in row:
         print(col)
-
+# Loop through each row and then each column to print every number in the 2D list
 
 num_grid=[
     [1,2,3],
@@ -334,6 +334,7 @@ num_grid=[
     [0]]
 for row in num_grid:
         print(row)
+# Loop through each row in the 2D list and print the entire row
 
         
 
