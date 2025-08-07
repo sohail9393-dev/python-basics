@@ -336,6 +336,19 @@ for row in num_grid:
         print(row)
 # Loop through each row in the 2D list and print the entire row
 
+employees_file = open("workers.txt", "r")
+# Open the file "workers.txt" in read mode ("r")
+print(employees_file.read())
+# Read the entire contents of the file and print it to the console
+employees_file.close()
+# Close the file to release system resources
+
+employees_file = open("workers.txt", "a")
+employees_file.write("\nNew worker added")
+employees_file.close()
+
+
+
         
 
 

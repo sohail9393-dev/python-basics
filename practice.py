@@ -1,7 +1,3 @@
-num_grid=[
-    [1,2,3],
-    [4,5,6],
-    [7,8,9],
-    [0]]
-for row in num_grid:
-    print(row)
+employees_file = open("workers.txt", "a")
+employees_file.write("\nNew worker added")
+employees_file.close()
