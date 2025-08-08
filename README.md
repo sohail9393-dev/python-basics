@@ -27,9 +27,7 @@ Anyone who is:
    git clone https://github.com/yourusername/python-basics.git
 
 
-   # Sample code
-name = input("Enter your name: ")
-print("Hello", name)
+
 
 
 
