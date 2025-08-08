@@ -344,9 +344,11 @@ employees_file.close()
 # Close the file to release system resources
 
 employees_file = open("workers.txt", "a")
+# Open the file "workers.txt" in append mode and add a new worker entry
 employees_file.write("\nNew worker added")
+# Write a new line with the text "New worker added"
 employees_file.close()
-
+# Close the file to save changes
 
 
         
