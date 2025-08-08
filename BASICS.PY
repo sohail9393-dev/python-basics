@@ -350,8 +350,19 @@ employees_file.write("\nNew worker added")
 employees_file.close()
 # Close the file to save changes
 
-
-        
+# CLASSES AND OBJECTS
+class students:
+    def __init__(self, name, age, major,is_on_probation):
+        self.name = name
+        self.age = age
+        self.major = major
+        self.is_on_probation = is_on_probation
+student1= students("jim", 50, "Art", False)
+student2= students("sameer", 23, "science", True)
+student3= students("Rahul", 30, "English", True)
+print(student1.major)
+print(student2.name)
+print(student3.age)
 
 
 
